@@ -47,6 +47,12 @@ public class FormTest {
         $(".react-datepicker__month-select").selectOption("January");
         $(".react-datepicker__year-select").selectOption("1994");
         $(".react-datepicker__day--005").click();
-        $(".react-datepicker__year-select").selectOption("1994");
+
+
+        //subject
+        //$("#subjectsContainer").click();
+        $("#subjectsInput").val("e");
+        $(".subjects-auto-complete__menu-list").$(byText("Computer Science")).click();
+
     }
 }
